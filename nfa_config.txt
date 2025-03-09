@@ -1,0 +1,34 @@
+
+Sigma:
+0
+1
+
+States :
+state s1, S
+state s2
+state s3
+state s4, F
+state s5
+state s6, F
+state s7, F
+state s8, F
+state s9
+state s10, F
+
+Transitions :
+state s1, 0, state s2
+state s1, 1, state s3
+state s2, 0, state s4
+state s2, 1, state s5
+state s4, 0, state s4
+state s4, 1, state s7
+state s7, 0, state s8
+state s8, 0, state s8
+state s5, 0, state s6
+state s6, 0, state s6
+state s3, 0, state s9
+state s9, 0, state s10
+state s10, 0, state s10
+
+
+

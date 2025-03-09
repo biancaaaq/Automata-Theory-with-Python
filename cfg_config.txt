@@ -1,0 +1,29 @@
+NonTerminals
+A_q2_A
+A_q0_A
+S_q0_Z
+A_q2_Z
+A_q1_Z
+A_q0_Z
+A_q1_A
+End
+Terminals
+q
+b
+a
+End
+Productions
+A_q0_Z -> aA_q1_A
+A_q0_Z -> aA_q1_A
+A_q1_A -> aA_q1_A
+A_q1_A -> aA_q1_A
+A_q1_A -> bA_q2_A
+A_q1_A -> bA_q2_A
+A_q2_A -> bA_q2_A
+A_q2_A -> bA_q2_A
+A_q2_Z -> 
+A_q2_A -> 
+End
+StartSymbol
+S_q0_Z
+End

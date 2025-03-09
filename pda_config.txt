@@ -1,0 +1,14 @@
+{
+    "states": ["q0", "q1", "q2"],
+    "alphabet": ["a", "b"],
+    "stack_alphabet": ["Z", "A"],
+    "transitions": [
+        [["q0", "a", "Z"], ["q1", "AZ"]],
+        [["q1", "a", "A"], ["q1", "AA"]],
+        [["q1", "b", "A"], ["q2", ""]],
+        [["q2", "b", "A"], ["q2", ""]]
+    ],
+    "start_state": "q0",
+    "start_stack_symbol": "Z",
+    "accept_states": ["q2"]
+}
