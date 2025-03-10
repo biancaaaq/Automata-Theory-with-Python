@@ -37,7 +37,7 @@ The implementation allows defining, testing, and converting between these models
 ## 🛠️ Technologies Used
 💻 **Python 3** – Core implementation language.
 
-📊 **Graphviz** *(optional)* – Used for graphical visualization of automata structures.
+📊 **Graphviz**  – Used for graphical visualization of automata structures.
 
 ---
 
